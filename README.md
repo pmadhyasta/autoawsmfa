@@ -14,7 +14,7 @@ also requires `keyring, pyotp and pyperclip` (available on `pip`).
 ## Installation from Pip
 
 ~~~bash
-pip install autoawsmfa
+pip install AutoAWSMFA
 ~~~
 
 ## Installation From Source Code
