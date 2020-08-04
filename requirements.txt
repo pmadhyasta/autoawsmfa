@@ -1,0 +1,6 @@
+boto3==1.14.33
+botocore==1.17.33
+keyring==21.3.0
+pydot==1.4.1
+pyotp==2.4.0
+pyperclip==1.8.0
