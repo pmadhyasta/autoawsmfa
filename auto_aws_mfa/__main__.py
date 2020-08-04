@@ -148,7 +148,7 @@ def main() -> int:
         return False
 
     # Manage non aws MFA token
-    if parsed_args.non_aws:
+    if parsed_args.picked_cmd == 'mfa' and parsed_args.non_aws:
         return handle_mfa(parsed_args)
     
     # This will add suffix '-permanent' to the original profile
