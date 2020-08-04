@@ -49,7 +49,6 @@ setup(
         'Intended Audience :: Developers',
         'Intended Audience :: Information Technology',
         'Intended Audience :: System Administrators',
-        'Intended Audience :: DevOps Engineers',
         'License :: OSI Approved :: GNU Affero General Public License v3',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
@@ -57,7 +56,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
-        'Topic :: Security Automation'
+        'Topic :: Security'
     ],
     keywords=[
         'AWS', 'IAM', 'Security', 'MFA', 'AWS Session Token', 'AWS MFA', 'autoawsmfa', 'auto_aws_mfa', 'AWS MFA', 'Token'
