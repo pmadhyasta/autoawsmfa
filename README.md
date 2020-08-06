@@ -9,7 +9,7 @@ Auto AWS MFA (autoawsmfa) is a script for managing AWS Session tokens enabled wi
 ## Requirements
 
 autoawsmfa is built using the `botocore & boto3` library and Python 3.5+. Python 2  is not supported. autoawsmfa 
-also requires `keyring, pyotp and pyperclip` (available on `pip`).
+also requires `keyring, pyotp and pyperclip` pip packages. Installation on Ubuntu additionally requires these packages to be installed via pip - `SecretStorage, keyrings.alt`
 
 ## Installation from Pip
 
