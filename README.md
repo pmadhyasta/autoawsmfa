@@ -62,7 +62,7 @@ subcommand:
 Add a new MFA secret to a specific AWS Profile
 
 ~~~bash
-autoawsmfa --profile <profile name> mfa --add-secrete
+autoawsmfa --profile <profile name> mfa --add-secret
 ~~~
 
 Profile name should exist in '~/.aws/credentials' for posix or in '%UserProfile%\.aws\credentials' fot NT/windows 
