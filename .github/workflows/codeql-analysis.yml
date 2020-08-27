@@ -47,6 +47,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
+       pip3 install setuptools
        pip3 install .
 
     - name: Perform CodeQL Analysis
