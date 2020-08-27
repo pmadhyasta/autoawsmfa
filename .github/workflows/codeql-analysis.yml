@@ -47,7 +47,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
-       pip install .
+       pip3 install .
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
